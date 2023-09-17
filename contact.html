@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Praktikum PABWE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+
+  <body>
+    <div class="container position-relative">
+      <header class="main-header">
+        <h1 style="margin: auto" ;>&#128241;Contact Us</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="challenges.html">Challenges</a>
+          <a href="contact.html">Concact Us</a>
+          <a href="login.html">Login</a>
+        </nav>
+      </header>
+      <form class="contact-form">
+        <caption>
+          <h2 class="contact">Hubungi Kami</h2>
+        </caption>
+
+        <label for="email">Nama Lengkap</label>
+        <input type="text" id="name" name="name" />
+        <br />
+        <label for="email">Alamat Email</label>
+        <input type="text" id="email" name="email" />
+        <br />
+        <label for="kategori">Kategori</label>
+        <label class="container"
+          >Laporan
+          <input class="button" type="radio" checked="checked" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="container"
+          >Masukkan
+          <input class="button" type="radio" checked="checked" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+
+        <br />
+
+        <!-- <label for="feedback">Masukkan</label> -->
+        <br />
+        <label for="message">Pesan</label>
+        <br />
+        <textarea
+          name="message"
+          id="message"
+          rows="5"
+          style="width: 100%"
+        ></textarea>
+        <hr />
+        <br />
+        <label class="container"
+          >Konfirmasi Tindakan
+          <input class="button" type="checkbox" checked="checked" />
+          <span class="confirmation-checkmark"></span>
+        </label>
+      </form>
+      <button style="background-color: #1098ad" class="kirim">Kirim</button>
+    </div>
+  </body>
+</html>
